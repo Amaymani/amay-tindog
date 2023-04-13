@@ -1,0 +1,161 @@
+#title{
+    background-color: #ff4c68;
+    
+}
+body{
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 10%;
+}
+.Button-pad{
+    padding: 10% 0%;
+}
+
+.navbar-brand{
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-left: 0rem;
+    
+}
+.navbar{
+    padding-bottom:4.5rem;
+}
+
+.nav-item{
+    padding: 0em 1em;
+}
+.iphone-image{
+    width: 30%;
+    transform: rotate(25deg);
+    padding-left: 10%;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    z-index: 0;
+
+}
+.fa-circle-check, .fa-bullseye, .fa-heart{
+    color: #ef8172;
+    zoom: 200%;
+    padding-top: 10%;
+}
+.col-lg-4{
+    text-align: center;
+}
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.features-con{
+    padding: 10% 10%;
+
+}
+.fea-h3{
+    padding-top: 10%;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.fea-para{
+    color: #8f8f8f;
+}
+.fa-circle-check:hover, .fa-bullseye:hover, .fa-heart:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+}
+.testi-h2{
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 10% 10% 3% 10%;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.testi-img{
+    border-radius: 100%;
+    zoom: 45%;
+}
+.testi-em{
+    color: white;
+    padding-left: 3% ;
+    font-weight: 500;
+}
+.testi-img-em{
+    padding-bottom: 10%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-img{
+    width: 15%;
+    padding: 0 20px 50px 20px;
+}
+
+#pricing{
+    padding: 5% 10% 5% 10%;
+}
+.btn-padding-fe{
+    padding-top: 7%;
+}
+h3{
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+h2{
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+}
+@media screen and (max-width: 994px) {
+    .iphone-image{
+        width: 50%;
+        transform: rotate(0deg);
+        position: static;
+    }
+    .container-fluid{
+        padding: 3% 10%;
+        text-align: center;
+    
+}
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 10%;
+    color: #fff;
+}
+.footer-h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    padding: 0% 15%;
+}
+.Button-pad-footer{
+    padding: 5% 0%;
+}
+
+#footer{
+    padding: 5% 0;
+    text-align: center;
+    font-size: 12px;
+}
+.footer-images{
+    zoom: 200%;
+}
+.fa-2xs{
+    padding: 2px;
+}

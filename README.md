@@ -1,1 +1,1 @@
-# amay-tindog
+TinDog Starting Files
